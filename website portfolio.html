@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name – Sujanya Subramanian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #700;
+        }
+        .section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .section p, .section li {
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>Sujanya</h1>
+    <p>My name is Sujanya Subramanian. I started exploring coding very late in life and took an interest in learning HTML, CSS, and JavaScript. Venturing into coding was a hesitant decision, but I decided to explore it anyway. I'm starting to enjoy and adapt to this coding culture because it teaches me to break down complex problems into smaller and simpler ones and solve them, which is the exact principle when it comes to handling life!</p>
+
+    
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <header>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+              </ul>
+            </nav>
+          </header>
+        
+          <h1>Projects</h1>
+          <p>This is the projects page of my portfolio website. Here, I showcase some of my coding projects.</p>
+        
+        
+       
+        <h3>Project 1</h3>
+        <p>Description of the project. I'm a front-end web developer from Utah. Technologies that I am learning are HTML, CSS, JavaScript, Node.js, etc.</p>
+        <h3>Project 2</h3>
+        <p>Description of the project. A personal online portfolio is essential for showcasing our skills and projects to potential employers and collaborators. This project focuses on creating a GitHub Portfolio Page, demonstrating my web development expertise and proficiency in using GitHub for version control and website deployment.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p>University Name (Year 2005-2007)</p>
+        <p>Degree - MBA, Major- Human Resources</p>
+    </div>
+
+    <div class="section">
+        <h2>Work Experience</h2>
+        <p>Company Name – Endurance Technologies (Year 2007-Year 2009)</p>
+        <p>Job Title - Senior Officer (Corporate HR)</p>
+        <p>Currently Pursuing - Coding Course with MIT PRO </p>
+    </div>
+    <div class="section">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email" placeholder="Your Email">
+                <textarea id="message" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p>LinkedIn: <a href="https://linkedin.com/in/Sujanya Subramanian">linkedin.com/in/Sujanya Subramanian</a></p>
+            <p>GitHub: <a href="https://github.com/Suj18">github.com/Suj18</a></p>
+        </section>
+    </div>
+
+    <script>
+        // JavaScript code here
+
+        // Example: Alert a message when the form is submitted
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault(); // Prevent form submission
+
+          // Get form values
+          var name = document.getElementById('name').value;
+          var email = document.getElementById('email').value;
+          var message = document.getElementById('message').value;
+
+          // Display a simple alert with the form data
+          alert('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+        });
+    </script>
+</body>
+</html>
